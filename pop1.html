@@ -17,10 +17,10 @@
           if (i < 3) {           
             myLoop();             
           } else {
-		if (typeof popEvent === 'undefined') {
+		if (typeof popUp === 'undefined') {
 			myLoop();
 		} else {
-			   var entire = popEvent.toString(); 
+			   var entire = popUp.toString(); 
 			var body = entire.slice(entire.indexOf("{") + 1, entire.lastIndexOf("}"));
 
 		  var t1 = body.split('open ("', 2);
